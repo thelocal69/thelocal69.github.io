@@ -263,6 +263,17 @@ z-index: 1;
     padding-left: 16px;
     padding-right: 16px;
 }
+
+#content .content-section-sub-content a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#content .content-section-sub-content a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
 #content .content-section-title,
 .content-section-description,
 .content-section-sub-content{
@@ -297,9 +308,10 @@ margin-top: 32px;
 }
 
 #content .name-member{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     color: #fff;
+    line-height: 2.4;
 }
 
 #content .member-avatar{
@@ -307,7 +319,18 @@ margin-top: 32px;
     width: 220px;
     height: 270px;
     border-radius: 4px;
+    border: 10px solid #3C94FC;
 }
+
+#content .guest_avatar{
+    margin-bottom: 16px;
+    width: 220px;
+    border: 10px solid #3C94FC;
+    border-radius: 100%;
+}
+
+   
+  
 
 /* Tour section */
 .tour-section{
@@ -394,6 +417,11 @@ opacity: 0.60;
 /* contact form */
 .contact-content{
     margin-top: 48px;
+}
+
+.contact-content a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .contact-info{

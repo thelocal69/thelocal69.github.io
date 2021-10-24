@@ -22,6 +22,27 @@
 
 /* tablet */
 @media (min-width: 46.25em) and (max-width: 63.9375em){
+    .control {
+        position: absolute;
+        top: 23%;
+        width: 14vw;
+        height: 54%;
+        background-color: rgba(92, 94, 97, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        z-index: 100;
+        transition: opacity 0.5s linear;
+    }
+
+    .play-pause {
+        cursor: pointer;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 /* mobile */
@@ -88,4 +109,47 @@
    .contact-form{
        margin-top: 32px;
    }
+
+   .slideshow-wrapper {
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(
+-45deg
+, #3100A3, #AE01E1, #3C94FC );
+    position: relative;
+   }
+   .control {
+    position: absolute;
+    top: 46%;
+    width: 14vw;
+    height: 22%;
+    background-color: rgba(92, 94, 97, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 100;
+    transition: opacity 0.5s linear;
+}
+
+.left-arrow {
+    left: 4%;
+}
+
+.right-arrow {
+    right: 4%;
+}
+.play-pause {
+    cursor: pointer;
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.play-pause i {
+    color: #ffffff;
+    font-size: 25px;
+  }
+  
 }
